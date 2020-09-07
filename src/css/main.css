@@ -511,6 +511,7 @@ Services
 .service p {
   -webkit-transition: var(--transition);
   transition: var(--transition);
+  text-align: left;
 }
 .service:hover {
   background: var(--clr-primary-5);
