@@ -3,18 +3,18 @@ import { Link } from "gatsby"
 const data = [
   {
     id: 1,
-    text: "home",
-    url: "/",
+    text: "About",
+    url: "/#about-me",
   },
   {
     id: 2,
-    text: "about",
-    url: "/about/",
+    text: "Experience",
+    url: "/#experience",
   },
   {
     id: 3,
-    text: "projects",
-    url: "/projects/",
+    text: "Portfolio",
+    url: "/#projects",
   },
   {
     id: 4,
@@ -37,9 +37,12 @@ const tempLinks = data.map(link => {
 })
 // I KNOW WE CAN COMBINE IT !!!!!
 
-export default ({ styleClass }) => {
+export default ({ styleClass, toggleSidebar }) => {
   return (
-    <ul className={`page-links ${styleClass ? styleClass : ""}`}>
+    <ul
+      className={`page-links ${styleClass ? styleClass : ""}`}
+      onClick={toggleSidebar}
+    >
       {tempLinks}
     </ul>
   )
