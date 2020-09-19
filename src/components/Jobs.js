@@ -5,7 +5,9 @@ import { Link } from "gatsby"
 import JobsList from "../constants/jobs"
 
 const Jobs = () => {
-  const jobsList = JobsList.sort()
+  const jobsList = JobsList.sort(function (a, b) {
+    return b.id - a.id
+  })
   const [value, setValue] = useState(0)
   const { company, date, position, desc } = jobsList[value]
 

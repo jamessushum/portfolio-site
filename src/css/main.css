@@ -645,6 +645,7 @@ Projects
   border-top-right-radius: var(--radius);
   height: 19rem;
   z-index: 1;
+  display: none;
 }
 .project-img::after {
   content: "";
@@ -694,7 +695,7 @@ Projects
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius);
   text-transform: uppercase;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   font-size: 0.85rem;
 }
 .about-stack span {
@@ -712,11 +713,13 @@ Projects
 @media screen and (min-width: 576px) {
   .project-img {
     height: 19rem;
+    display: block;
   }
 }
 @media screen and (min-width: 768px) {
   .project-img {
     height: 22rem;
+    display: block;
   }
 }
 @media screen and (min-width: 992px) {
@@ -731,13 +734,14 @@ Projects
     height: 30rem;
     border-radius: var(--radius);
     box-shadow: var(--dark-shadow);
+    display: block;
   }
   .project-info {
     border-radius: var(--radius);
     box-shadow: var(--dark-shadow);
 
     z-index: 1;
-    grid-column: 5 /12;
+    grid-column: 5 / 12;
     grid-row: 1 / 1;
   }
   .project:nth-of-type(even) .project-img {

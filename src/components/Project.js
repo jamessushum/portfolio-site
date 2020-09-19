@@ -1,18 +1,18 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Image from "gatsby-image"
 import { FaGithubSquare, FaShareSquare } from "react-icons/fa"
-const Project = ({ description, title, github, stack, url, image, index }) => {
+
+const Project = ({ desc, title, github, stack, url, image, index }) => {
   return (
     <article className="project">
-      <Image fluid={image.childImageSharp.fluid} className="project-img" />
+      <img src={image} alt="project-image" className="project-img" />
       <div className="project-info">
         <span className="project-number">Featured Project</span>
         <h3>{title}</h3>
-        <p className="project-desc">{description}</p>
+        <p className="project-desc">{desc}</p>
         <div className="project-stack">
-          {stack.map(item => {
-            return <span key={item.id}>{item.title}</span>
+          {stack.map((item, index) => {
+            return <span key={index}>{item}</span>
           })}
         </div>
         <div className="project-links">
