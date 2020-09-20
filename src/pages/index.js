@@ -5,6 +5,7 @@ import About from "../components/About"
 import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import AddProjs from "../components/AddProjs"
+import Contact from "../components/Contact"
 
 export default () => {
   return (
@@ -14,6 +15,7 @@ export default () => {
       <Jobs />
       <Projects title="Portfolio" showLink />
       <AddProjs title="Additional Projects" />
+      <Contact title="Contact Me" />
     </Layout>
   )
 }
