@@ -12,7 +12,7 @@ module.exports = {
     author: "James Su-Shum",
     twitterUsername: "",
     image: "",
-    siteUrl: "", // Deployed site url goes here, remove forward slash at end of url
+    siteUrl: "https://github.com/jamessushum", // Deployed site url goes here, remove forward slash at end of url
   },
   plugins: [
     `gatsby-transformer-sharp`,
