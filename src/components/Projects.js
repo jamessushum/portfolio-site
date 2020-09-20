@@ -4,7 +4,7 @@ import Project from "./Project"
 import { Link } from "gatsby"
 import FeaturedProjects from "../constants/featuredProjects"
 
-const Projects = ({ projects, title, showLink }) => {
+const Projects = ({ title, showLink }) => {
   return (
     <section className="section projects" id="projects">
       <Title title={title} />
