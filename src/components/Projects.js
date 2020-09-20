@@ -4,7 +4,7 @@ import Project from "./Project"
 import { Link } from "gatsby"
 import FeaturedProjects from "../constants/featuredProjects"
 
-const Projects = ({ title, showLink }) => {
+const Projects = ({ title }) => {
   return (
     <section className="section projects" id="projects">
       <Title title={title} />
@@ -13,11 +13,6 @@ const Projects = ({ title, showLink }) => {
           return <Project key={project.id} index={index} {...project} />
         })}
       </div>
-      {showLink && (
-        <Link to="/projects" className="btn center-btn">
-          Projects
-        </Link>
-      )}
     </section>
   )
 }

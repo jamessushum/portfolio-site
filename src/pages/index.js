@@ -13,7 +13,7 @@ export default () => {
       <Hero />
       <About />
       <Jobs />
-      <Projects title="Portfolio" showLink />
+      <Projects title="Portfolio" />
       <AddProjs title="Additional Projects" />
       <Contact title="Contact Me" />
     </Layout>
