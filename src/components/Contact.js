@@ -7,8 +7,11 @@ const Contact = ({ title }) => {
       <Title title={title} />
       <div className="contact-body">
         <article className="contact">
-          <h4>Have any questions or just want to say hi, send me a message!</h4>
-          <a href="mailto:sushumjames@gmail.com" className="btn center-btn">
+          <h4>
+            Let's connect, feel free to reach out should you have any questions
+            or just want to say hi!
+          </h4>
+          <a href="mailto:sushumjames@gmail.com" className="btn contact-btn">
             Say Hello
           </a>
         </article>

@@ -1071,3 +1071,7 @@ Contact Section
   display: flex;
   justify-content: center;
 }
+
+.contact-btn {
+  margin-top: 1rem;
+}

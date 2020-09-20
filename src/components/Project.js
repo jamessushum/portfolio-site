@@ -1,5 +1,4 @@
 import React from "react"
-import PropTypes from "prop-types"
 import { FaGithubSquare, FaShareSquare } from "react-icons/fa"
 
 const Project = ({ desc, title, github, stack, url, image, index }) => {
@@ -27,7 +26,5 @@ const Project = ({ desc, title, github, stack, url, image, index }) => {
     </article>
   )
 }
-
-Project.propTypes = {}
 
 export default Project
