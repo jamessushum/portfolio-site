@@ -491,7 +491,7 @@ Services
 */
 .service {
   background: var(--clr-white);
-  padding: 3rem 1.5rem;
+  padding: 1.5rem;
   margin-bottom: 2rem;
   border-radius: var(--radius);
   text-align: center;
@@ -513,7 +513,7 @@ Services
   transition: var(--transition);
   text-align: left;
 }
-.service:hover {
+/* .service:hover {
   background: var(--clr-primary-5);
   color: var(--clr-primary-9);
 }
@@ -522,7 +522,7 @@ Services
 }
 .service:hover .underline {
   background: var(--clr-primary-9);
-}
+} */
 @media screen and (min-width: 676px) {
   .services-center {
     display: grid;
@@ -534,7 +534,7 @@ Services
 }
 @media screen and (min-width: 992px) {
   .services-center {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
