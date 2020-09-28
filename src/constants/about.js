@@ -31,7 +31,7 @@ export default [
   {
     id: 2,
     icon: <FaSketch className="service-icon" />,
-    title: "Technologies I'm currently using",
+    title: "Technologies I'm Currently Using",
     text: (
       <ul style={{ textAlign: "center" }}>
         <li>JavaScript</li>
