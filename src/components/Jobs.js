@@ -1,8 +1,8 @@
 import React, { useState } from "react"
 import Title from "./Title"
 import { FaAngleDoubleRight } from "react-icons/fa"
-import { Link } from "gatsby"
 import JobsList from "../constants/jobs"
+import Resume from "../../static/James-SuShum-ResumeV2.pdf"
 
 const Jobs = () => {
   const jobsList = JobsList.sort(function (a, b) {
@@ -44,9 +44,9 @@ const Jobs = () => {
           })}
         </article>
       </div>
-      <Link to="/about" className="btn center-btn">
+      <a href={Resume} target="_blank" className="btn center-btn">
         Download Resume
-      </Link>
+      </a>
     </section>
   )
 }

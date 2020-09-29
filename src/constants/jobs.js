@@ -38,7 +38,9 @@ export default [
     position: "Software Developer",
     date: "2020 - Present",
     desc: [
-      "Immersive full-time software development program focusing on full-stack development fundamentals and problem solving. Tech stack includes: HTML, CSS, JavaScript, C# and .NET",
+      "Immersive software development program focused on applied learning of development fundamentals and problem solving through building real-world applications",
+      "Utilized agile development method and git/GitHub source code version control to successfuly complete 5 full-stack web appplications",
+      "Application design through whiteboard dependencies and Entity Relationship Diagram (ERD) design",
     ],
   },
 ]
