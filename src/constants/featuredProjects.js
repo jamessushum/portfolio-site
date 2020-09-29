@@ -18,23 +18,23 @@ export default [
       "Currents API",
     ],
   },
-  {
-    id: 2,
-    title: "Back-End Project",
-    desc:
-      "Coming soon. Please enjoy some hipster ipsum in the meantime. I'm baby direct trade authentic drinking vinegar vaporware waistcoat food truck plaid. Lomo stumptown vegan paleo blog tumblr. Banjo chillwave chambray vice ethical forage pug typewriter stumptown ugh. Viral activated charcoal cold-pressed cornhole salvia, bushwick scenester. ",
-    github: "https://github.com/jamessushum",
-    url: "https://github.com/jamessushum",
-    image:
-      "https://res.cloudinary.com/diswqnkzl/image/upload/v1600549765/deals_page_zow3v2.png",
-    stack: [
-      "React",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Reactstrap",
-      "C#",
-      "SQL Server",
-    ],
-  },
+  // {
+  //   id: 2,
+  //   title: "Back-End Project",
+  //   desc:
+  //     "Coming soon. Please enjoy some hipster ipsum in the meantime. I'm baby direct trade authentic drinking vinegar vaporware waistcoat food truck plaid. Lomo stumptown vegan paleo blog tumblr. Banjo chillwave chambray vice ethical forage pug typewriter stumptown ugh. Viral activated charcoal cold-pressed cornhole salvia, bushwick scenester. ",
+  //   github: "https://github.com/jamessushum",
+  //   url: "https://github.com/jamessushum",
+  //   image:
+  //     "https://res.cloudinary.com/diswqnkzl/image/upload/v1600549765/deals_page_zow3v2.png",
+  //   stack: [
+  //     "React",
+  //     "JavaScript",
+  //     "HTML",
+  //     "CSS",
+  //     "Reactstrap",
+  //     "C#",
+  //     "SQL Server",
+  //   ],
+  // },
 ]
