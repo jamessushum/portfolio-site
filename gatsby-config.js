@@ -19,13 +19,13 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `assets`,
-        path: `${__dirname}/src/assets/`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `assets`,
+    //     path: `${__dirname}/src/assets/`,
+    //   },
+    // },
     // {
     //   resolve: `gatsby-source-strapi`,
     //   options: {
