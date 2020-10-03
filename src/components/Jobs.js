@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import Title from "./Title"
 import { FaAngleDoubleRight } from "react-icons/fa"
 import JobsList from "../constants/jobs"
-import Resume from "../../static/James-SuShum-ResumeV2.pdf"
+import Resume from "../../static/James.Su-Shum.Resume.pdf"
 
 const Jobs = () => {
   const jobsList = JobsList.sort(function (a, b) {
