@@ -741,7 +741,7 @@ Projects
     box-shadow: var(--dark-shadow);
 
     z-index: 1;
-    grid-column: 5 / 12;
+    grid-column: 7 / 12;
     grid-row: 1 / 1;
   }
   .project:nth-of-type(even) .project-img {
