@@ -1,5 +1,6 @@
 import React from "react"
 import Title from "./Title"
+import { FaEnvelope } from "react-icons/fa"
 
 const Contact = ({ title }) => {
   return (
@@ -7,6 +8,7 @@ const Contact = ({ title }) => {
       <Title title={title} />
       <div className="contact-body section-center">
         <article className="contact">
+          <FaEnvelope className="service-icon" />
           <h4>
             Let's connect, feel free to reach out should you have any questions
             or just want to say hi!

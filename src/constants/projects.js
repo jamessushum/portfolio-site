@@ -49,7 +49,7 @@ export default [
     id: 6,
     title: "Daily Journal",
     desc:
-      "Journal web app enabling user students to document their progress in their learning journey.",
+      "Journal web app for students to document their progress in their learning journey.",
     github: "https://github.com/jamessushum/Daily_Journal",
     url: "",
     stack: ["JavaScript", "HTML", "CSS"],

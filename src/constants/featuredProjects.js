@@ -3,7 +3,7 @@ export default [
     id: 1,
     title: "Deal Insight",
     desc:
-      "A commercial real estate deal management platform with real-time commercial real estate and business news feeds. The app was built and designed for commercial real estate investment teams to help track and manage their acquisition deals, stay informed with the market with real time news, view and send team messages, and keep track of individual and team performances with dynamic analytical charts.",
+      "A commercial real estate deal management platform with real-time commercial real estate and business news feeds. The app was built and designed for commercial real estate investment teams to help track and manage their acquisition deals, stay informed with the market, view and send team messages, and keep track of individual and team performances with dynamic analytical charts.",
     github: "https://github.com/jamessushum/Deal_Insight",
     url: "https://deal-insight.herokuapp.com/",
     image:

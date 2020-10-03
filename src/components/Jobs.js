@@ -44,7 +44,12 @@ const Jobs = () => {
           })}
         </article>
       </div>
-      <a href={Resume} target="_blank" className="btn center-btn">
+      <a
+        href={Resume}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn center-btn"
+      >
         Download Resume
       </a>
     </section>

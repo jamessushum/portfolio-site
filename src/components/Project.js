@@ -4,7 +4,7 @@ import { FaGithubSquare, FaShareSquare } from "react-icons/fa"
 const Project = ({ desc, title, github, stack, url, image, index }) => {
   return (
     <article className="project">
-      <img src={image} alt="project-image" className="project-img" />
+      <img src={image} alt={title} className="project-img" />
       <div className="project-info">
         <span className="project-number">Featured Project</span>
         <h3>{title}</h3>
