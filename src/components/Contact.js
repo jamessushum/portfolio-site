@@ -5,7 +5,7 @@ const Contact = ({ title }) => {
   return (
     <section className="section projects" id="contact">
       <Title title={title} />
-      <div className="contact-body">
+      <div className="contact-body section-center">
         <article className="contact">
           <h4>
             Let's connect, feel free to reach out should you have any questions

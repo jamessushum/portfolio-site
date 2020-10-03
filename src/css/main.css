@@ -1060,7 +1060,7 @@ Contact Section
 */
 .contact {
   background: var(--clr-white);
-  padding: 3rem 1.5rem;
+  padding: 1.5rem;
   margin-bottom: 2rem;
   border-radius: var(--radius);
   text-align: center;
@@ -1071,7 +1071,6 @@ Contact Section
   display: flex;
   justify-content: center;
 }
-
 .contact-btn {
   margin-top: 1rem;
 }
